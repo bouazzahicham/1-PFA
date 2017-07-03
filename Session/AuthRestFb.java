@@ -51,7 +51,7 @@ this.dataUser = dataUser ;
     @Override
     public void run() // throws IOException
     {
-        System.setProperty("webdriver.chrome.driver", "/Users/mac/Desktop/myDev/JavaAll/JavaPFA/src/sample/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "src/sample/chromedriver");
         //Ouverture du premier Driver :
         driver1= new ChromeDriver();
 
