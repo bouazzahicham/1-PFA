@@ -103,10 +103,9 @@ public class Quickstart {
 
     public static Credential authorize() throws IOException {
         // Load client secrets.
-        InputStream in = new FileInputStream("/Users/mac/Desktop/myDev/JavaAll/PFAjava/src/sample/client_secret.json");
+        InputStream in = new FileInputStream("client_secret.json");
 
 
-        //    Quickstart.class.getResourceAsStream("C:/Users/Toshiba P50/Desktop/etudes/pfa/work/src/main/resources/client_secret.json");
         GoogleClientSecrets clientSecrets =
             GoogleClientSecrets.load(JSON_FACTORY, new InputStreamReader(in));
 
